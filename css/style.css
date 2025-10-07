@@ -1,0 +1,52 @@
+/* #region Сброс */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: serif;
+    min-height: 3922px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* #endregion Сброс*/
+
+* #region Общее */:root {
+    --font-family: "Roboto", sans-serif;
+}
+
+.container--common {
+    max-width: 1484px;
+    /* 1440+22+22=1484 */
+    padding: 0 22px;
+    margin: 0 auto;
+}
+
+img {
+    /*  Адаптивное изображение */
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* #endregion Общее */
