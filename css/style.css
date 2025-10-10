@@ -330,15 +330,22 @@ html {
 
 /* #region Section 05 */
 .section--05 {
+    background: #f1d3b9;
+}
+
+.section--05__container {
+    min-height: 1070px;
     padding-top: 60px;
     padding-bottom: 60px;
+
     padding-left: clamp(20px, 12.708vw, 183px);
     /* padding-left: 183px; */
-    /* padding-right: 157px; */
-    padding-right: clamp(20px, 10.903vw, 157px);
 
-    background: #f1d3b9;
-    min-height: 1070px;
+    padding-right: clamp(20px, 10.903vw, 157px);
+    /* padding-right: 157px; */
+
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section--05__whole-block {
@@ -349,6 +356,7 @@ html {
     display: flex;
     justify-content: end;
     min-height: 947px;
+
 }
 
 .section--05__inner-block {
@@ -393,10 +401,10 @@ html {
 
 /* #region Section 06 */
 .section--06 {
-    padding-top: 20px;
+    padding-top: 24px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     background-color: #b4604d;
 }
 
@@ -408,10 +416,12 @@ html {
     text-transform: capitalize;
     text-align: center;
     color: #000;
+    margin-bottom: 50px;
 }
 
 .section--06__container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
 }
@@ -427,3 +437,64 @@ html {
 }
 
 /* #endregion Section 06 */
+
+/* #region Footer */
+.footer {
+    background: #f6f4ec;
+    min-height: 401px;
+}
+
+.footer__container {
+    padding: 60px 50px;
+}
+
+.footer__horizontal-block {
+    display: flex;
+    margin-bottom: 129px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__left-side {}
+
+.footer__a {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #b45f4d;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.footer__center {}
+
+.footer__right-side {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #c17c6c;
+    padding-right: 115px;
+}
+
+.footer__copy {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #c17c6c;
+}
+
+.footer__right-side-p1 {
+    margin-bottom: 20px;
+}
+
+.footer__right-side-p2 {}
+
+.footer__right-side-address {
+    font-style: normal;
+}
+
+/* #endregion Footer */
